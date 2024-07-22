@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ITSLeeds.github.io/TDStests/index.html</loc>
-    <lastmod>2024-07-22T09:05:46.436Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ITSLeeds.github.io/TDStests/materials.html</loc>
-    <lastmod>2024-07-22T09:05:46.436Z</lastmod>
+    <lastmod>2024-07-22T21:24:20.722Z</lastmod>
   </url>
   <url>
     <loc>https://ITSLeeds.github.io/TDStests/schedule.html</loc>
-    <lastmod>2024-07-22T09:05:46.436Z</lastmod>
+    <lastmod>2024-07-22T21:24:20.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ITSLeeds.github.io/TDStests/materials.html</loc>
+    <lastmod>2024-07-22T21:24:20.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ITSLeeds.github.io/TDStests/marking-criteria.html</loc>
+    <lastmod>2024-07-22T21:24:20.722Z</lastmod>
   </url>
 </urlset>
