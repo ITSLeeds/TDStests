@@ -9,11 +9,11 @@ title-slide-attributes:
     data-background-image: https://c1.staticflickr.com/2/1216/1096671706_571a263b63_b.jpg
     data-background-size: contain
     data-background-opacity: "0.5"
+# <!-- Credit: Mandeep Lota via [flickr](https://www.flickr.com/photos/deepster2k/1096671706) -->
 ---
 
-<!-- Credit: Mandeep Lota via [flickr](https://www.flickr.com/photos/deepster2k/1096671706) -->
 
-## Who: The Transport Data Science team
+## Who: Transport Data Science team
 
 #### Robin Lovelace
 
