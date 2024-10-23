@@ -17,6 +17,7 @@ Imports:
     stats19,
     nycflights13,
     remotes,
-    spDataLarge
+    spDataLarge,
+    DT
 Remotes:
     nowosad/spDataLarge
