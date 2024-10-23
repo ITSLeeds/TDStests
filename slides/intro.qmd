@@ -13,7 +13,7 @@ title-slide-attributes:
 
 <!-- Credit: Mandeep Lota via [flickr](https://www.flickr.com/photos/deepster2k/1096671706) -->
 
-## The Transport Data Science team
+## Who: The Transport Data Science team
 
 #### Robin Lovelace
 
@@ -61,6 +61,49 @@ title-slide-attributes:
 <!-- - Matlab programmer  -->
 
 <!-- - Expertise in dynamic traffic assignment -->
+
+## What is transport data science?
+
+::: {.incremental}
+
+-   The application of data science to transport datasets and problems
+-   Raising the question...
+-   What is data science?
+-   A discipline "that allows you to turn raw data into understanding, insight, and knowledge" (Grolemund, 2016)
+
+In other words...
+
+-   Statistics that is actually useful!
+
+:::
+
+## Why take Transport Data Science
+
+
+::::::: columns
+:::: {.column width="40%"}
+::: incremental
+-   New skills
+-   Potential for impacts
+-   Allows you to do new things with data
+-   It might get you a job!
+:::
+::::
+
+:::: {.column width="60%"}
+::: {layout="[[1,2], [1]]"}
+![](https://r.geocompx.org/images/cover2.png)
+
+![](https://github.com/npct/pct-team/blob/master/figures/front-page-leeds-pct-demo.png?raw=true)
+
+![](images/paste-17.png)
+:::
+::::
+:::::::
+
+## Live demo: [npt.scot web app](https://nptscot.github.io/)
+
+![](https://nptscot.github.io/images/rnet_filters.png)
 
 ## The history of TDS
 
@@ -142,30 +185,6 @@ For more references, see the bibliography at [github.com/ITSLeeds/TDS](https://g
 -   Written in code - will be graded for reproducibility
 -   Code chunks and figures are encouraged
 -   You will submit a non-assessed 2 page pdf + qmd
-
-## What is transport data science?
-
--   The application of data science to transport datasets and problems
-
---
-
--   Raising the question...
-
---
-
--   What is data science?
-
-<!-- You tell me! -->
-
---
-
--   A discipline "that allows you to turn raw data into understanding, insight, and knowledge" (Grolemund, 2016)
-
---
-
-In other words...
-
--   Statistics that is actually useful!
 
 ## [Schedule](https://itsleeds.github.io/TDStests/schedule.html)
 
