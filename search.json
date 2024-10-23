@@ -4,7 +4,7 @@
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Datasets\nSlides",
+    "text": "Practical 1\n\nSlides\n\nPractical 2\nPractical 3\nPractical 4\nPractical 5\nPractical 6\n\nDatasets",
     "crumbs": [
       "Materials"
     ]
@@ -106,6 +106,13 @@
     "title": "Introduction to transport data science",
     "section": "Feedback",
     "text": "Feedback\n\nThe module is taught by two really well organised and enthusiastic professors, great module, the seminars, structured and unstructured learning was great and well thought out, all came together well\n\n\nI wish this module was 60 credits instead of 15 because i just want more of it."
+  },
+  {
+    "objectID": "p1/index.html",
+    "href": "p1/index.html",
+    "title": "Practical 1: Introduction to Transport Data Science",
+    "section": "",
+    "text": "Test"
   },
   {
     "objectID": "marking-criteria.html",
