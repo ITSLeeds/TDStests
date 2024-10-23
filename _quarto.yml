@@ -31,6 +31,7 @@ format:
     theme: cosmo
     # css: styles.css
     toc: true
+    number-sections: true
 
 execute:
   freeze: auto
