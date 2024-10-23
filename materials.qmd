@@ -2,7 +2,13 @@
 title: "Course Materials"
 ---
 
-[Datasets](data/)
+- [Practical 1](p1)
+  - [Slides](p1/slides.html)
+- [Practical 2](p2)
+- [Practical 3](p3)
+- [Practical 4](p4)
+- [Practical 5](p5)
+- [Practical 6](p6)
 
-[Slides](slides/)
+[Datasets](data/)
 
