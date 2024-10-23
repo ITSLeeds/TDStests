@@ -35,7 +35,7 @@
     "href": "slides/intro.html#history-of-tds-ii",
     "title": "Introduction to transport data science",
     "section": "History of TDS II",
-    "text": "History of TDS II\n\nJanuary 2020: Available, Data Science MSc course\nMarch 2020: Switch to online teaching\n2021-2023: Updated module, focus on methods\n2024: Switch to combined practical sessions and lectures\n2025+: Expand, online course? book? stay in touch!\n\n\n\nMilestone passed in my academic career, first online-only delivery of lecture @ITSLeeds, seems to have worked, live code demo with #rstats/@rstudio, recording, chat + all🎉Thanks students for 'attending' + remote participation, we'll get through this together.#coronavirus pic.twitter.com/wlAUxmZj5r\n\n— Robin Lovelace (@robinlovelace) March 17, 2020"
+    "text": "History of TDS II\n\nJanuary 2020: Available, Data Science MSc course\nMarch 2020: Switch to online teaching\n2021-2023: Updated module, focus on methods\n2024: Switch to combined practical sessions and lectures\n2025+: Expand, online course? book? stay in touch!\n\n\n\nMilestone passed in my academic career, first online-only delivery of lecture @ITSLeeds, seems to have worked, live code demo with #rstats/@rstudio, recording, chat + all🎉Thanks students for ‘attending’ + remote participation, we’ll get through this together.#coronavirus pic.twitter.com/wlAUxmZj5r\n\n— Robin Lovelace (@robinlovelace) March 17, 2020"
   },
   {
     "objectID": "slides/intro.html#essential-reading",
@@ -78,6 +78,13 @@
     "title": "Introduction to transport data science",
     "section": "What is transport data science?",
     "text": "What is transport data science?\n\nThe application of data science to transport datasets and problems\n\n–\n\nRaising the question…\n\n–\n\nWhat is data science?\n\n\n–\n\nA discipline “that allows you to turn raw data into understanding, insight, and knowledge” (Grolemund, 2016)\n\n–\nIn other words…\n\nStatistics that is actually useful!"
+  },
+  {
+    "objectID": "slides/intro.html#schedule",
+    "href": "slides/intro.html#schedule",
+    "title": "Introduction to transport data science",
+    "section": "Schedule",
+    "text": "Schedule"
   },
   {
     "objectID": "marking-criteria.html",
