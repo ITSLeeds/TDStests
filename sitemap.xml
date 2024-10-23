@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ITSLeeds.github.io/TDStests/schedule.html</loc>
-    <lastmod>2024-07-25T16:17:54.261Z</lastmod>
+    <loc>https://ITSLeeds.github.io/TDStests/materials.html</loc>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
   </url>
   <url>
-    <loc>https://ITSLeeds.github.io/TDStests/index.html</loc>
-    <lastmod>2024-07-25T16:17:54.261Z</lastmod>
+    <loc>https://ITSLeeds.github.io/TDStests/slides/intro.html</loc>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ITSLeeds.github.io/TDStests/schedule.html</loc>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
   </url>
   <url>
     <loc>https://ITSLeeds.github.io/TDStests/marking-criteria.html</loc>
-    <lastmod>2024-07-25T16:17:54.261Z</lastmod>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
   </url>
   <url>
-    <loc>https://ITSLeeds.github.io/TDStests/materials.html</loc>
-    <lastmod>2024-07-25T16:17:54.261Z</lastmod>
+    <loc>https://ITSLeeds.github.io/TDStests/index.html</loc>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ITSLeeds.github.io/TDStests/slides/index.html</loc>
+    <lastmod>2024-10-23T12:50:47.811Z</lastmod>
   </url>
 </urlset>
