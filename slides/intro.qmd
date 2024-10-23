@@ -1,7 +1,7 @@
 ---
 title: "Introduction to transport data science"
 subtitle: '<br/>Module: Transport Data Science'
-author: "Dr Robin Lovelace"
+author: "Robin Lovelace"
 date: last-modified
 format: revealjs
 # bibliography: tds.bib
