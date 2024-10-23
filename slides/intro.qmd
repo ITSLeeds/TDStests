@@ -83,7 +83,7 @@ In other words...
 ::::::: columns
 :::: {.column width="40%"}
 ::: incremental
--   New skills
+-   New skills (cutting edge R and/or Python packages)
 -   Potential for impacts
 -   Allows you to do new things with data
 -   It might get you a job!
