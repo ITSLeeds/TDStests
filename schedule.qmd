@@ -7,18 +7,9 @@ execute:
 ```{r}
 #| include: false
 # Aim: create ical of all lectures and practicals of TDS
-
 library(tidyverse)
-# devtools::install_github("ATFutures/calendar")
-# remotes::install_cran("calendar")
-
-# Manual input ----
-# get dates -----
-# See https://ses.leeds.ac.uk/info/21630/timetabling/1004/teaching_week_patterns
-# browseURL("https://ses.leeds.ac.uk/download/1557/1920_teaching_week_pattern")
-# browseURL("http://ses.leeds.ac.uk/info/21630/timetabling/1291/teaching_week_patterns_202223")
-# w_start = as.Date("2020-09-28") + 364
-w_start = as.Date("2020-09-28") + 364 + 364 + 364 + 7
+# Start date of week 1 (source: https://ses.leeds.ac.uk/info/21630/timetabling/1384/teaching-week-patterns-202425)
+w_start = as.Date("2024-09-30")
 w_start
 lubridate::wday(w_start, label = TRUE) # start on a Monday
 week_num = c(1:11, paste0("C", 1:4), 12:22, paste0("C", 1:4), 23:30)
