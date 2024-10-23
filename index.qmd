@@ -16,7 +16,7 @@ We recommend installing this software on a computer with decent resources (e.g. 
 
 Prior experience of using R or Python (e.g. having used it for work, in previous degrees or having completed an online course) is essential.
 
-Students can demonstrate this by showing evidence that they have worked with R before, have completed an online course such as the first 4 sessions in the RStudio Primers series https://rstudio.cloud/learn/primers or DataCamp’s Free Introduction to R course: https://www.datacamp.com/courses/free-introduction-to-r.
+Students can demonstrate this by showing evidence that they have worked with R before, have completed an online course such as the first 4 sessions in the [RStudio Primers series](https://rstudio.cloud/learn/primers) or [DataCamp’s Free Introduction to R course](https://www.datacamp.com/courses/free-introduction-to-r).
 
 Evidence of substantial programming and data science experience in previous professional or academic work, in languages such as R or Python, also constitutes sufficient pre-requisite knowledge for the course.
 
