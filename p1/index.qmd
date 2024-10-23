@@ -1,8 +1,6 @@
 ---
 title: "Practical 1: Introduction to Transport Data Science"
 bibliography: ../tds.bib
-execute: 
-  eval: false
 ---
 
 <!-- ## Agenda {-} -->
@@ -113,8 +111,8 @@ This section builds on the Reproducible road safety with R homework, to **read a
 It assumes that you have recently updated R and RStudio on your computer.
 For details on installing packages see here: https://docs.ropensci.org/stats19/articles/stats19-training-setup.html
 
-- Create a new R project called 'practical1'
-- In it create file called foundations.Rmd
+- Create a new folder (or R project with RStudio) called 'practical1'
+- In it create file called foundations.qmd
 - Type the following
 
 
@@ -127,15 +125,10 @@ casualty_type = c("pedestrian", "cyclist", "cat")
 casualty_age = seq(from = 20, to = 60, by = 20)
 crashes = data.frame(casualty_type, casualty_age)
 ```
+
 ````
 
-- Knit the document by pressing Ctrl+Shift+K or with the 'Knit' button in RStudio
-    - Bonus: you can also 'knit' or compile the file with the following command, try it out to generate different file formats, as described in the [package's documentation](https://rmarkdown.rstudio.com/lesson-9.html):
-    
-```{r, eval=FALSE}
-rmarkdown::render("foundations.Rmd", output_format = "pdf_document")
-browseURL("/tmp/foundations.pdf")
-```
+- Knit the document by pressing Ctrl+Shift+K, with the 'Knit' button in RStudio, or by typing `quarto render foundations.qmd` in the PowerShell or Terminal console
 
 ```{r, echo=FALSE}
 casualty_type = c("pedestrian", "cyclist", "cat")
@@ -149,6 +142,10 @@ We now have a data frame object stored in memory (technically in the global envi
 
 To get some larger datasets, try the following (from Chapter 8 of RSRR)
 
+::: {.tabset}
+
+## R
+
 ```{r}
 library(stats19)
 ac = get_stats19(year = 2019, type = "collision")
@@ -156,6 +153,17 @@ ca = get_stats19(year = 2019, type = "cas")
 ve = get_stats19(year = 2019, type = "veh")
 ```
 
+## Python
+
+```python
+#| eval: false
+import stats19
+ac = stats19.get_stats19(year = 2019, type = "collision")
+ca = stats19.get_stats19(year = 2019, type = "cas")
+ve = stats19.get_stats19(year = 2019, type = "veh")
+```
+
+:::
 
 2.3.1. Use the `$` operator to print the `vehicle_type` column of `crashes`.
 
@@ -294,6 +302,9 @@ Try, for example, running the following command: `remotes::install_github("ITSLe
 
 ```{r, eval=FALSE}
 install.packages("remotes")
+```
+
+```{r}
 pkgs = c(
   "nycflights13",# data package
   "stats19",     # downloads and formats open stats19 crash data

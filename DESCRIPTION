@@ -15,4 +15,8 @@ Imports:
     sf,
     quarto,
     stats19,
-    nycflights13
+    nycflights13,
+    remotes,
+    spDataLarge
+Remotes:
+    nowosad/spDataLarge

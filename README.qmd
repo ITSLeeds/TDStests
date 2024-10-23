@@ -2,24 +2,15 @@
 format: gfm
 ---
 
-```{r}
-#| eval: false
-# init and snapshot renv:
-renv::init()
-renv::snapshot()
-```
+This repo contain code for the Transport Data Science module at the Institute for Transport Studies, University of Leeds.
+
+To set it up we used the following commands:
 
 ```{r}
 #| eval: false
-# Update packages after development work as follows:
-renv::snapshot() # then select "2" to update the lockfile
+usethis::use_description()
+usethis::use_package("stats19")
+usethis::use_package("dplyr")
+usethis::use_package("ggplot2")
+usethis::use_package("quarto")
 ```
-
-<!-- # Quarto course website template
-
-A template for course websites developed with [Quarto](https://quarto.org) and hosted on GitHub.
-
-This is all configured so you only need to edit the source files in Quarto (.qmd). The website is generated and hosted automatically by GitHub.
-
-Example website: https://pakillo.github.io/quarto-course-website-template (see also https://github.com/rstudio-conf-2022/teach-ds-course-website for a more developed example). -->
-
