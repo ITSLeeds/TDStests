@@ -1,6 +1,8 @@
 ---
 title: "Practical 1: Introduction to Transport Data Science"
 bibliography: ../tds.bib
+execute: 
+  cache: true
 ---
 
 <!-- ## Agenda {-} -->
@@ -142,7 +144,7 @@ We now have a data frame object stored in memory (technically in the global envi
 
 To get some larger datasets, try the following (from Chapter 8 of RSRR)
 
-::: {.tabset}
+::: {.panel-tabset group="language"}
 
 ## R
 
