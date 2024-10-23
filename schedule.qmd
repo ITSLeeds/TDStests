@@ -135,6 +135,12 @@ readr::write_csv(tt_csv, "timetable.csv")
 ```
 
 ```{r}
+#| eval: false
+system("gh release create 2025")
+system("gh release upload 2025 timetable.ics timetable.csv")
+```
+
+```{r}
 timetable = tt_csv |> 
   mutate(
     session_code = paste0(
