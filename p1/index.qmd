@@ -1,16 +1,8 @@
 ---
 title: "Practical 1: Introduction to Transport Data Science"
 bibliography: ../tds.bib
----
-
----
-title: "Introduction to transport data science"
-subtitle: '<br/>Practical'
-author: "Robin Lovelace"
-date: 'University of Leeds `r # Sys.Date()()`<br/><img class="img-footer" alt="" src="https://comms.leeds.ac.uk/wp-content/themes/toolkit-wordpress-theme/img/logo.png">'
-output:
-  github_document:
-    number_sections: true
+execute: 
+  eval: false
 ---
 
 <!-- ## Agenda {-} -->
