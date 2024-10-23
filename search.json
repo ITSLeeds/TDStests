@@ -10,11 +10,11 @@
     ]
   },
   {
-    "objectID": "slides/intro.html#the-transport-data-science-team",
-    "href": "slides/intro.html#the-transport-data-science-team",
+    "objectID": "slides/intro.html#who-the-transport-data-science-team",
+    "href": "slides/intro.html#who-the-transport-data-science-team",
     "title": "Introduction to transport data science",
-    "section": "The Transport Data Science team",
-    "text": "The Transport Data Science team\nRobin Lovelace\n\nAssociate Professor of Transport Data Science\nResearching transport futures and active travel planning\nR developer and teacher, author of Geocomputation with R\n\nYuanxuan Yang\n\nLecturer in Data Science of Transport\nNew and Emerging Forms of Data: Investigating novel data sources and their applications in urban mobility and transport planning."
+    "section": "Who: The Transport Data Science team",
+    "text": "Who: The Transport Data Science team\nRobin Lovelace\n\nAssociate Professor of Transport Data Science\nResearching transport futures and active travel planning\nR developer and teacher, author of Geocomputation with R\n\nYuanxuan Yang\n\nLecturer in Data Science of Transport\nNew and Emerging Forms of Data: Investigating novel data sources and their applications in urban mobility and transport planning."
   },
   {
     "objectID": "slides/intro.html#tds-team-ii",
@@ -22,6 +22,27 @@
     "title": "Introduction to transport data science",
     "section": "TDS Team II",
     "text": "TDS Team II\nMalcolm Morgan\n\nSenior researcher at ITS with expertise in routing + web\nDeveloper of the Propensity to Cycle Tool and PBCC\n\nZhao Wang\n\nCivil Engineer and Data Scientist with expertise in machine learning\n\nDemonstrators\n\nJuan Pablo Fonseca Zamora\n\nYou!"
+  },
+  {
+    "objectID": "slides/intro.html#what-is-transport-data-science",
+    "href": "slides/intro.html#what-is-transport-data-science",
+    "title": "Introduction to transport data science",
+    "section": "What is transport data science?",
+    "text": "What is transport data science?\n\n\nThe application of data science to transport datasets and problems\nRaising the question…\nWhat is data science?\nA discipline “that allows you to turn raw data into understanding, insight, and knowledge” (Grolemund, 2016)\n\nIn other words…\n\nStatistics that is actually useful!"
+  },
+  {
+    "objectID": "slides/intro.html#why-take-transport-data-science",
+    "href": "slides/intro.html#why-take-transport-data-science",
+    "title": "Introduction to transport data science",
+    "section": "Why take Transport Data Science",
+    "text": "Why take Transport Data Science\n\n\n\n\nNew skills\nPotential for impacts\nAllows you to do new things with data\nIt might get you a job!"
+  },
+  {
+    "objectID": "slides/intro.html#live-demo-npt.scot-web-app",
+    "href": "slides/intro.html#live-demo-npt.scot-web-app",
+    "title": "Introduction to transport data science",
+    "section": "Live demo: npt.scot web app",
+    "text": "Live demo: npt.scot web app"
   },
   {
     "objectID": "slides/intro.html#the-history-of-tds",
@@ -71,13 +92,6 @@
     "title": "Introduction to transport data science",
     "section": "Assessment (for those doing this as credit-bearing)",
     "text": "Assessment (for those doing this as credit-bearing)\n\nYou will build-up a portfolio of work\n100% coursework assessed, you will submit by\nWritten in code - will be graded for reproducibility\nCode chunks and figures are encouraged\nYou will submit a non-assessed 2 page pdf + qmd"
-  },
-  {
-    "objectID": "slides/intro.html#what-is-transport-data-science",
-    "href": "slides/intro.html#what-is-transport-data-science",
-    "title": "Introduction to transport data science",
-    "section": "What is transport data science?",
-    "text": "What is transport data science?\n\nThe application of data science to transport datasets and problems\n\n–\n\nRaising the question…\n\n–\n\nWhat is data science?\n\n\n–\n\nA discipline “that allows you to turn raw data into understanding, insight, and knowledge” (Grolemund, 2016)\n\n–\nIn other words…\n\nStatistics that is actually useful!"
   },
   {
     "objectID": "slides/intro.html#schedule",
