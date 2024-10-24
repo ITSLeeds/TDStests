@@ -10,7 +10,7 @@ A module teaching how to use data science to solve transport problems.
 
 You should have the latest stable release of R (4.3.0 or above) and be comfortable with computing in general, for example creating folders, moving files, and installing software.
 
-We recommend installing this software on a computer with decent resources (e.g. a laptop with 8 GB of more RAM).
+We recommend installing this software on a computer with decent resources (e.g. a laptop with 8 GB of RAM).
 
 ## Data science experience prerequisites
 
