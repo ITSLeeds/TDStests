@@ -19,6 +19,7 @@ Imports:
     remotes,
     spDataLarge,
     DT,
-    calendar
+    calendar,
+    reticulate
 Remotes:
     nowosad/spDataLarge
