@@ -30,7 +30,11 @@ jobs:
       
       - name: Additional Setup
         run: |
-          Rscript -e 'reticulate::py_install("jupyter")'
+          # Install Python:
+          sudo apt-get update
+          sudo apt-get install python3
+          sudo apt-get install python3-pip
+          python3 -m pip install jupyter
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
