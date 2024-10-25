@@ -167,17 +167,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 <ul>
-<li><a href="p1">Practical 1</a>
+<li><p><a href="p1">Practical 1</a></p>
 <ul>
 <li><a href="p1/slides.html">Slides</a></li>
 </ul></li>
-<li><a href="p2">Practical 2</a></li>
-<li><a href="p3">Practical 3</a></li>
-<li><a href="p4">Practical 4</a></li>
-<li><a href="p5">Practical 5</a></li>
-<li><a href="p6">Practical 6</a></li>
+<li><p><a href="p2">Practical 2</a></p></li>
+<li><p><a href="p3">Practical 3</a></p></li>
+<li><p><a href="p4">Practical 4</a></p></li>
+<li><p><a href="p5">Practical 5</a></p></li>
+<li><p><a href="p6">Practical 6</a></p></li>
+<li><p><a href="data/">Datasets</a></p></li>
+<li><p><a href="slides/">Slides</a> (those not included in the practicals)</p></li>
 </ul>
-<p><a href="data/">Datasets</a></p>
+<pre class="{bash}"><code>#| eval: false
+#| echo: false
+cd docs/slides
+docker run --rm -t -v .:/slides astefanutti/decktape -s 1280x720 generic https://itsleeds.github.io/TDStests/slides/intro.html intro.pdf
+firefox intro.pdf</code></pre>
 
 
 
