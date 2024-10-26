@@ -13,3 +13,13 @@ usethis::use_package("stats19")
 usethis::use_package("DT")
 usethis::use_package("quarto")
 ```
+
+You can save presentations as PDF files with the following command:
+
+```{bash}
+#| eval: false
+#| echo: false
+cd docs/slides
+docker run --rm -t -v .:/slides astefanutti/decktape -s 1280x720 generic https://itsleeds.github.io/TDStests/slides/intro.html intro.pdf
+firefox intro.pdf
+```
