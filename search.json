@@ -112,49 +112,21 @@
     "href": "p1/index.html",
     "title": "Practical 1: Introduction to Transport Data Science",
     "section": "",
-    "text": "How do you see yourself using data science over the next 5 years?\nThink of a question about a transport system you know well and how data science could help answer it, perhaps with reference to a sketch like that below\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee https://www.openstreetmap.org/#map=19/53.80689/-1.55637 for more ideas"
+    "text": "Lecture: an introduction to Transport Data Science (30 min)\nQ&A (15 min) \nBreak and networking (15 min) \nData science and a good research question (30 min)\nData science foundations (guided): Project set-up and using RStudio or VS Code as an integrated development environment (30 min)\nFocussed work (1 hr)\n\n\nWorking through the questions on processing OD data and running the code in Sections 13.1 to 13.4 the Transport chapter of Geocomputation with R and answering the questions for the Bristol dataset"
   },
   {
-    "objectID": "p1/index.html#thinking-about-transport-data-science",
-    "href": "p1/index.html#thinking-about-transport-data-science",
+    "objectID": "p1/index.html#agenda",
+    "href": "p1/index.html#agenda",
     "title": "Practical 1: Introduction to Transport Data Science",
     "section": "",
-    "text": "How do you see yourself using data science over the next 5 years?\nThink of a question about a transport system you know well and how data science could help answer it, perhaps with reference to a sketch like that below\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee https://www.openstreetmap.org/#map=19/53.80689/-1.55637 for more ideas"
+    "text": "Lecture: an introduction to Transport Data Science (30 min)\nQ&A (15 min) \nBreak and networking (15 min) \nData science and a good research question (30 min)\nData science foundations (guided): Project set-up and using RStudio or VS Code as an integrated development environment (30 min)\nFocussed work (1 hr)\n\n\nWorking through the questions on processing OD data and running the code in Sections 13.1 to 13.4 the Transport chapter of Geocomputation with R and answering the questions for the Bristol dataset"
   },
   {
-    "objectID": "p1/index.html#bonus-reproduce-the-contents-of-chapter-2-in-python",
-    "href": "p1/index.html#bonus-reproduce-the-contents-of-chapter-2-in-python",
+    "objectID": "p1/index.html#how-to-come-up-with-a-good-research-question",
+    "href": "p1/index.html#how-to-come-up-with-a-good-research-question",
     "title": "Practical 1: Introduction to Transport Data Science",
-    "section": "1.1 Bonus: reproduce the contents of Chapter 2 in Python",
-    "text": "1.1 Bonus: reproduce the contents of Chapter 2 in Python"
-  },
-  {
-    "objectID": "p1/index.html#completing-chapters-2-4-in-the-rrsrr-document",
-    "href": "p1/index.html#completing-chapters-2-4-in-the-rrsrr-document",
-    "title": "Practical 1: Introduction to Transport Data Science",
-    "section": "2.1 Completing Chapters 2-4 in the RRSRR document",
-    "text": "2.1 Completing Chapters 2-4 in the RRSRR document\n\nThis was your homework but revisit it an ensure you understand every bit and complete it if you haven’t already"
-  },
-  {
-    "objectID": "p1/index.html#tidyverse",
-    "href": "p1/index.html#tidyverse",
-    "title": "Practical 1: Introduction to Transport Data Science",
-    "section": "2.2 Tidyverse",
-    "text": "2.2 Tidyverse\n\nWork through Chapter 5 starting with the following code:\n\n\nlibrary(tidyverse) # Load the package\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
-  },
-  {
-    "objectID": "p1/index.html#bonus-analysis-of-flights-data",
-    "href": "p1/index.html#bonus-analysis-of-flights-data",
-    "title": "Practical 1: Introduction to Transport Data Science",
-    "section": "3.1 Bonus: Analysis of flights data",
-    "text": "3.1 Bonus: Analysis of flights data\nYou need to have a number of packages installed and loaded. Install the packages by typing in the following commands into RStudio (you do not need to add the comments after the # symbol):1\n\ninstall.packages(\"remotes\")\n\n\npkgs = c(\n  \"nycflights13\",# data package\n  \"stats19\",     # downloads and formats open stats19 crash data\n  \"tidyverse\"   # a package for user friendly data science\n)\nremotes::install_cran(pkgs)\n\nSkipping install of 'nycflights13' from a cran remote, the SHA1 (1.0.2) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\nSkipping install of 'stats19' from a cran remote, the SHA1 (3.2.0) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\nSkipping install of 'tidyverse' from a cran remote, the SHA1 (2.0.0) has not changed since last install.\n  Use `force = TRUE` to force installation\n\nremotes::install_github(\"nowosad/spDataLarge\")\n\nUsing github PAT from envvar GITHUB_TOKEN. Use `gitcreds::gitcreds_set()` and unset GITHUB_TOKEN in .Renviron (or elsewhere) if you want to use the more secure git credential store instead.\n\n\nSkipping install of 'spDataLarge' from a github remote, the SHA1 (4c2d08a9) has not changed since last install.\n  Use `force = TRUE` to force installation\n\n\nLoad the tidyverse package as follows:\n\nlibrary(tidyverse)\n\nThis section will use content from Chapter 5 of the R for Data Science book (grolemund_data_2016?).\n\nRead section 5.1 of R for Data Science and write code that reproduces the results in that section in the script learning-tidyverse.R\n\nYour script will start with something like this:\n\nlibrary(tidyverse)\nlibrary(nycflights13)\n\n\nTake a random sample of 10,000 flights and assign it to an object with the following line of code:\n\n\nlibrary(nycflights13)\nflights_sample = sample_n(flights, 1e4)\nunique(flights$carrier)\n\n [1] \"UA\" \"AA\" \"B6\" \"DL\" \"EV\" \"MQ\" \"US\" \"WN\" \"VX\" \"FL\" \"AS\" \"9E\" \"F9\" \"HA\" \"YV\"\n[16] \"OO\"\n\n\n\nFind the unique carriers with the unique() function\nCreate an object containing flights from United, American, or Delta, and assign it to f, as follows:\n\n\nf = filter(flights, grepl(pattern = \"UA|AA|DL\", x = carrier))\nf2 = filter(flights, grepl(pattern = \"UA\", x = carrier) |\n             grepl(pattern = \"AA\", x = carrier) |\n             grepl(pattern = \"DL\", x = carrier)\n           )\nf3 = filter(flights, str_detect(carrier, \"UA|AA|DL\"))\n\n\nCreate plots that visualise the sample flights, using code from Chapter 3 of the same book, starting with the following plot:\n\n\nggplot(f) +\n  geom_point(aes(air_time, distance))\n\n\n\n\n\n\n\n\n\nAdd transparency so it looks like this (hint: use alpha = in the geom_point() function call):\n\n\n\nWarning: Removed 2117 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\nAdd a colour for each carrier, so it looks something like this:\n\n\nggplot(f) +\n  geom_point(aes(air_time, distance, colour = carrier), alpha = 0.5)\n\nWarning: Removed 2117 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\nBonus 1: find the average air time of those flights with a distance of 1000 to 2000 miles\nBonus 2: use the lm() function to find the relationship between flight distance and time, and plot the results (start the plot as follows, why did we use na.omit()? hint - find help with ?na.omit()):\n\n\nf = na.omit(f)\nm = lm(air_time ~ distance, data = f)\nf$pred = m$fitted.values"
-  },
-  {
-    "objectID": "p1/index.html#footnotes",
-    "href": "p1/index.html#footnotes",
-    "title": "Practical 1: Introduction to Transport Data Science",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n Note: if you want to install the development version of a package from GitHub, you can do so. Try, for example, running the following command: remotes::install_github(\"ITSLeeds/pct\")↩︎"
+    "section": "How to come up with a good research question",
+    "text": "How to come up with a good research question\n\nThink about the data you have access to\nThink about the problems you want to solve\nThink about the methods you want to use and skills you want to learn\nThink about how the final report will look and hold-together\n\n\nHow much potential is there for cycling across the transport network?\n\n\n\nHow can travel to schools be made safer?\n\n\nHow can hospitals encourage visitors to get there safely?\n\n\nWhere’s the best place to build electric car charging points?\nSee openstreetmap.org or search for other open access datasets for more ideas"
   },
   {
     "objectID": "marking-criteria.html",

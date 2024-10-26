@@ -182,20 +182,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#thinking-about-transport-data-science" id="toc-thinking-about-transport-data-science" class="nav-link active" data-scroll-target="#thinking-about-transport-data-science">Thinking about (transport) data science</a></li>
-  <li><a href="#r-foundations" id="toc-r-foundations" class="nav-link" data-scroll-target="#r-foundations"><span class="header-section-number">1</span> R foundations</a>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link active" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#what-is-transport-data-science-and-thinking-of-a-good-research-question" id="toc-what-is-transport-data-science-and-thinking-of-a-good-research-question" class="nav-link" data-scroll-target="#what-is-transport-data-science-and-thinking-of-a-good-research-question">What is transport data science and thinking of a good research question</a>
   <ul class="collapse">
-  <li><a href="#bonus-reproduce-the-contents-of-chapter-2-in-python" id="toc-bonus-reproduce-the-contents-of-chapter-2-in-python" class="nav-link" data-scroll-target="#bonus-reproduce-the-contents-of-chapter-2-in-python"><span class="header-section-number">1.1</span> Bonus: reproduce the contents of Chapter 2 in Python</a></li>
+  <li><a href="#how-to-come-up-with-a-good-research-question" id="toc-how-to-come-up-with-a-good-research-question" class="nav-link" data-scroll-target="#how-to-come-up-with-a-good-research-question">How to come up with a good research question</a></li>
   </ul></li>
-  <li><a href="#practical-introduction-to-data-science" id="toc-practical-introduction-to-data-science" class="nav-link" data-scroll-target="#practical-introduction-to-data-science"><span class="header-section-number">2</span> Practical introduction to data science</a>
-  <ul class="collapse">
-  <li><a href="#completing-chapters-2-4-in-the-rrsrr-document" id="toc-completing-chapters-2-4-in-the-rrsrr-document" class="nav-link" data-scroll-target="#completing-chapters-2-4-in-the-rrsrr-document"><span class="header-section-number">2.1</span> Completing Chapters 2-4 in the RRSRR document</a></li>
-  <li><a href="#tidyverse" id="toc-tidyverse" class="nav-link" data-scroll-target="#tidyverse"><span class="header-section-number">2.2</span> Tidyverse</a></li>
-  </ul></li>
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework"><span class="header-section-number">3</span> Homework</a>
-  <ul class="collapse">
-  <li><a href="#bonus-analysis-of-flights-data" id="toc-bonus-analysis-of-flights-data" class="nav-link" data-scroll-target="#bonus-analysis-of-flights-data"><span class="header-section-number">3.1</span> Bonus: Analysis of flights data</a></li>
-  </ul></li>
+  <li><a href="#data-science-foundations" id="toc-data-science-foundations" class="nav-link" data-scroll-target="#data-science-foundations"><span class="header-section-number">1</span> Data Science foundations</a></li>
+  <li><a href="#data-science-foundations-1" id="toc-data-science-foundations-1" class="nav-link" data-scroll-target="#data-science-foundations-1"><span class="header-section-number">2</span> Data Science foundations</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework"><span class="header-section-number">3</span> Homework</a></li>
   </ul>
 </nav>
     </div>
@@ -221,23 +215,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<!-- ## Agenda {-} -->
-<!-- 1. Thinking about transport data science (20 min) -->
-<!-- 2. Questions about the homework (10 min) -->
-<!-- 3. Practical 2 (2.5 hrs) -->
-<!-- - Introduction to the module and team - 30 min -->
-<!-- Each person to say  1) their name and where they are based 2) why they took the module and 3) their level of knowledge of coding. -->
-<!-- 1. Project set-up and using RStudio - 30 minutes -->
-<!-- 1. Getting started with transport data in the stplanr package - 30 minutes -->
-<!-- 1. Working alone through the questions on processing OD data - 1 hr -->
-<!-- running the code in Sections 12.1 to 12.4 the Transport chapter of Geocomputation with R and answering the questions for the Bristol dataset  - 1 hr  -->
-<!-- 1. Bonus: Work through [Chapter 5](https://r4ds.had.co.nz/transform.html#filter-rows-with-filter) of R for Data Science -->
-<section id="thinking-about-transport-data-science" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="thinking-about-transport-data-science">Thinking about (transport) data science</h2>
-<!-- - Based on the contents of the lecture, come up with *your own* definition of data science -->
+<section id="agenda" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="agenda">Agenda</h2>
+<ol type="1">
+<li>Lecture: an introduction to Transport Data Science (30 min)</li>
+<li>Q&amp;A (15 min) <!-- - Introduction to the module and team - 30 min
+    Each person to say  1) their name and where they are based 2) why they took the module and 3) their level of knowledge of coding. --></li>
+<li>Break and networking (15 min) <!-- 3. Practical (2 hrs) --></li>
+<li>Data science and a good research question (30 min)</li>
+<li>Data science foundations (guided): Project set-up and using RStudio or VS Code as an integrated development environment (30 min)</li>
+<li>Focussed work (1 hr)</li>
+</ol>
 <ul>
+<li>Working through the questions on processing OD data and running the code in Sections 13.1 to 13.4 the Transport chapter of Geocomputation with R and answering the questions for the Bristol dataset<br>
+<!-- 1. Bonus: Work through [Chapter 5](https://r4ds.had.co.nz/transform.html#filter-rows-with-filter) of R for Data Science --></li>
+</ul>
+</section>
+<section id="what-is-transport-data-science-and-thinking-of-a-good-research-question" class="level1 unnumbered">
+<h1 class="unnumbered">What is transport data science and thinking of a good research question</h1>
+<ul>
+<li>Based on the contents of the lecture, come up with <em>your own</em> definition of data science</li>
 <li>How do you see yourself using data science over the next 5 years?</li>
 <li>Think of a question about a transport system you know well and how data science could help answer it, perhaps with reference to a sketch like that below</li>
+</ul>
+<section id="how-to-come-up-with-a-good-research-question" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="how-to-come-up-with-a-good-research-question">How to come up with a good research question</h2>
+<ul>
+<li>Think about the data you have access to</li>
+<li>Think about the problems you want to solve</li>
+<li>Think about the methods you want to use and skills you want to learn</li>
+<li>Think about how the final report will look and hold-together</li>
 </ul>
 <section id="how-much-potential-is-there-for-cycling-across-the-transport-network" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="how-much-potential-is-there-for-cycling-across-the-transport-network">How much potential is there for cycling across the transport network?</h4>
@@ -251,7 +258,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="wheres-the-best-place-to-build-electric-car-charging-points" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="wheres-the-best-place-to-build-electric-car-charging-points">Where’s the best place to build electric car charging points?</h4>
-<p>See https://www.openstreetmap.org/#map=19/53.80689/-1.55637 for more ideas</p>
+<p>See <a href="https://www.openstreetmap.org/#map=19/53.80689/-1.55637">openstreetmap.org</a> or search for other open access datasets for more ideas</p>
 <!-- 2. Work through the transport chapter of Geocomputation with R: https://geocompr.robinlovelace.net/transport.html -->
 <!-- See https://github.com/ITSLeeds/TDS/blob/master/practicals/2-software.md -->
 <!-- - In terms of future work in an evolving job market? -->
@@ -294,27 +301,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- - Articulate the relevance and limitations of data-centric analysis applied to transport problems, compared with other methods -->
 </section>
 </section>
-<section id="r-foundations" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> R foundations</h1>
-<p>This section builds on the Reproducible road safety with R homework, to <strong>read and try to complete the exercises in Chapters 1 to 4 of the book Reproducible Road Safety Research with R.</strong> It assumes that you have recently updated R and RStudio on your computer. For details on installing packages see here: https://docs.ropensci.org/stats19/articles/stats19-training-setup.html</p>
+</section>
+<section id="data-science-foundations" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Data Science foundations</h1>
+<p><strong>Read and try to complete the exercises in Chapters 1 to 4 of the book Reproducible Road Safety Research with R.</strong> It assumes that you have recently updated R and RStudio on your computer. For details on installing packages see here: https://docs.ropensci.org/stats19/articles/stats19-training-setup.html</p>
 <ul>
 <li>Create a new folder (or R project with RStudio) called ‘practical1’</li>
 <li>In it create file called foundations.qmd</li>
 <li>Type the following</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>This is some text:</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>::: {.cell}</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="in">```{.r .cell-code}</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">casualty_type = c("pedestrian", "cyclist", "cat")</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="in">casualty_age = seq(from = 20, to = 60, by = 20)</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="in">crashes = data.frame(casualty_type, casualty_age)</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><img src="images/paste-1.png" class="img-fluid"></p>
 <ul>
-<li>Knit the document by pressing Ctrl+Shift+K, with the ‘Knit’ button in RStudio, or by typing <code>quarto render foundations.qmd</code> in the PowerShell or Terminal console</li>
+<li>Knit the document by pressing Ctrl+Shift+K, with the ‘Knit’ button in RStudio, or by typing <code>quarto render foundations.qmd</code> in the PowerShell or Terminal console, the result should look like this:</li>
+</ul>
+<p>This is some text:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>casualty_type <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"pedestrian"</span>, <span class="st">"cyclist"</span>, <span class="st">"cat"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>casualty_age <span class="ot">=</span> <span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">20</span>, <span class="at">to =</span> <span class="dv">60</span>, <span class="at">by =</span> <span class="dv">20</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>crashes <span class="ot">=</span> <span class="fu">data.frame</span>(casualty_type, casualty_age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li></li>
 </ul>
 <p>We now have a data frame object stored in memory (technically in the global environment) that is used as the basis of the questions.</p>
 <p>To get some larger datasets, try the following (from Chapter 8 of RSRR)</p>
@@ -339,13 +346,13 @@ www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</code></pre>
 <pre><code>Attempt downloading from: https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Data saved at /tmp/RtmpddK8Sf/dft-road-casualty-statistics-collision-2019.csv</code></pre>
+<pre><code>Data saved at /tmp/RtmpD2a7DS/dft-road-casualty-statistics-collision-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Reading in: </code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/RtmpddK8Sf/dft-road-casualty-statistics-collision-2019.csv</code></pre>
+<pre><code>/tmp/RtmpD2a7DS/dft-road-casualty-statistics-collision-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>date and time columns present, creating formatted datetime column</code></pre>
@@ -366,7 +373,7 @@ Warning in format_stats19(x, type = "Accident"): NAs introduced by coercion</cod
 <pre><code>Attempt downloading from: https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Data saved at /tmp/RtmpddK8Sf/dft-road-casualty-statistics-casualty-2019.csv</code></pre>
+<pre><code>Data saved at /tmp/RtmpD2a7DS/dft-road-casualty-statistics-casualty-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: The following named parsers don't match the column names:
@@ -403,7 +410,7 @@ vehicle_location_restricted_lane, vehicle_manoeuvre</code></pre>
 <pre><code>Attempt downloading from: https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-vehicle-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Data saved at /tmp/RtmpddK8Sf/dft-road-casualty-statistics-vehicle-2019.csv</code></pre>
+<pre><code>Data saved at /tmp/RtmpD2a7DS/dft-road-casualty-statistics-vehicle-2019.csv</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: The following named parsers don't match the column names: accident_severity, carriageway_hazards, date, day_of_week, did_police_officer_attend_scene_of_accident, first_road_class, first_road_number, junction_control, junction_detail, Latitude, light_conditions, local_authority_district, local_authority_highway, local_authority_ons_district, location_easting_osgr, location_northing_osgr, longitude, lsoa_of_accident_location, number_of_casualties, number_of_vehicles, pedestrian_crossing_human_control, pedestrian_crossing_physical_facilities, police_force, road_surface_conditions, road_type, second_road_class, second_road_number, special_conditions_at_site, speed_limit, time, trunk_road_flag, urban_or_rural_area, weather_conditions, age_band_of_casualty, age_of_casualty, bus_or_coach_passenger, car_passenger, casualty_class, casualty_home_area_type, casualty_imd_decile, casualty_reference, casualty_severity, casualty_type, pedestrian_location, pedestrian_movement, pedestrian_road_maintenance_worker, sex_of_casualty, vehicle_text
@@ -412,7 +419,7 @@ NAs introduced by coercion</code></pre>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="sourceCode" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
+<div class="sourceCode" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Todo: start with installing stats19 Python package</span></span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> stats19</span>
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>ac <span class="op">=</span> stats19.get_stats19(year <span class="op">=</span> <span class="dv">2019</span>, <span class="bu">type</span> <span class="op">=</span> <span class="st">"collision"</span>)</span>
 <span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>ca <span class="op">=</span> stats19.get_stats19(year <span class="op">=</span> <span class="dv">2019</span>, <span class="bu">type</span> <span class="op">=</span> <span class="st">"cas"</span>)</span>
@@ -443,206 +450,38 @@ NAs introduced by coercion</code></pre>
 <ul>
 <li>We’ll explore this together</li>
 </ul>
-<section id="bonus-reproduce-the-contents-of-chapter-2-in-python" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="bonus-reproduce-the-contents-of-chapter-2-in-python"><span class="header-section-number">1.1</span> Bonus: reproduce the contents of Chapter 2 in Python</h2>
+<!-- ## Completing Chapters 2-4 in the RRSRR document
+
+-   This was your homework but revisit it an ensure you understand every bit and complete it if you haven't already
+
+## Tidyverse
+
+-   Work through Chapter 5 starting with the following code: -->
+<!-- library(tidyverse) # Load the package -->
 </section>
-</section>
-<section id="practical-introduction-to-data-science" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Practical introduction to data science</h1>
-<section id="completing-chapters-2-4-in-the-rrsrr-document" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="completing-chapters-2-4-in-the-rrsrr-document"><span class="header-section-number">2.1</span> Completing Chapters 2-4 in the RRSRR document</h2>
-<ul>
-<li>This was your homework but revisit it an ensure you understand every bit and complete it if you haven’t already</li>
-</ul>
-</section>
-<section id="tidyverse" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="tidyverse"><span class="header-section-number">2.2</span> Tidyverse</h2>
-<ul>
-<li>Work through Chapter 5 starting with the following code:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># Load the package</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-</div>
-</section>
+<section id="data-science-foundations-1" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Data Science foundations</h1>
+<p>Work through <a href="https://r.geocompx.org/transport.html">Chapter 13</a> of the book Geocomputation with R, taking care to ask questions about any aspects that you don’t understand (your homework will be to complete and make notes on the chapter, including reproducible code).</p>
 </section>
 <section id="homework" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Homework</h1>
 <ul>
-<li><p>Work through chapters 6 and 7 on spatial and temporal data in the <a href="https://itsleeds.github.io/rrsrr/">RRSRR tutorial</a> to get R foundations</p></li>
-<li><p>Work-through the remaining exercises of the first sections in R4DS chapters 3 and 5</p>
-<ul>
-<li>Write your notes in a .R, .Rmd or .qmd file with comments, to show your working (and prove you’ve done it!)</li>
-</ul></li>
-<li><p><strong>Bonus 1 (optional)</strong> Run the code in the <a href="https://github.com/ITSLeeds/TDS/blob/master/demos/demo-quarto-document.qmd">demos/demo-quarto-document.qmd</a> script</p></li>
+<li>Complete working through Chapter 13 of the Geocomputation with R book. Make notes in a .qmd file that you can bring to the class to show colleagues and the instructor next week.</li>
 </ul>
-<p>Note: you can copy-paste the code from the .qmd file into a new .qmd file on your computer and render it (convert it into a .PDF file) using the following:</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"quarto"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>(<span class="st">"demos/demo-quarto-document.qmd"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><strong>Bonus 2 (optional for this week, advised at some point over the next 4 weeks at your own pace)</strong></p>
-<p>Work through all of the code in the <a href="https://itsleeds.github.io/rrsrr/">RRSRR tutorial</a>, focussing on the parts that you think will be most useful for your coursework.</p>
-<section id="bonus-analysis-of-flights-data" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="bonus-analysis-of-flights-data"><span class="header-section-number">3.1</span> Bonus: Analysis of flights data</h2>
-<p>You need to have a number of packages installed and loaded. Install the packages by typing in the following commands into RStudio (you do not need to add the comments after the <code>#</code> symbol):<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>pkgs <span class="ot">=</span> <span class="fu">c</span>(</span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"nycflights13"</span>,<span class="co"># data package</span></span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"stats19"</span>,     <span class="co"># downloads and formats open stats19 crash data</span></span>
-<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"tidyverse"</span>   <span class="co"># a package for user friendly data science</span></span>
-<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_cran</span>(pkgs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Skipping install of 'nycflights13' from a cran remote, the SHA1 (1.0.2) has not changed since last install.
-  Use `force = TRUE` to force installation</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Skipping install of 'stats19' from a cran remote, the SHA1 (3.2.0) has not changed since last install.
-  Use `force = TRUE` to force installation</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Skipping install of 'tidyverse' from a cran remote, the SHA1 (2.0.0) has not changed since last install.
-  Use `force = TRUE` to force installation</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"nowosad/spDataLarge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Using github PAT from envvar GITHUB_TOKEN. Use `gitcreds::gitcreds_set()` and unset GITHUB_TOKEN in .Renviron (or elsewhere) if you want to use the more secure git credential store instead.</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Skipping install of 'spDataLarge' from a github remote, the SHA1 (4c2d08a9) has not changed since last install.
-  Use `force = TRUE` to force installation</code></pre>
-</div>
-</div>
-<p>Load the tidyverse package as follows:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>This section will use content from Chapter 5 of the R for Data Science book <span class="citation" data-cites="grolemund_data_2016">(<a href="#ref-grolemund_data_2016" role="doc-biblioref"><strong>grolemund_data_2016?</strong></a>)</span>.</p>
-<ul>
-<li>Read <a href="https://r4ds.had.co.nz/transform.html#filter-rows-with-filter">section 5.1</a> of R for Data Science and write code that reproduces the results in that section in the script <code>learning-tidyverse.R</code></li>
-</ul>
-<p>Your script will start with something like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Take a random sample of 10,000 flights and assign it to an object with the following line of code:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span>
-<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>flights_sample <span class="ot">=</span> <span class="fu">sample_n</span>(flights, <span class="fl">1e4</span>)</span>
-<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(flights<span class="sc">$</span>carrier)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] "UA" "AA" "B6" "DL" "EV" "MQ" "US" "WN" "VX" "FL" "AS" "9E" "F9" "HA" "YV"
-[16] "OO"</code></pre>
-</div>
-</div>
-<ul>
-<li><p>Find the unique carriers with the <code>unique()</code> function</p></li>
-<li><p>Create an object containing flights from United, American, or Delta, and assign it to <code>f</code>, as follows:</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>f <span class="ot">=</span> <span class="fu">filter</span>(flights, <span class="fu">grepl</span>(<span class="at">pattern =</span> <span class="st">"UA|AA|DL"</span>, <span class="at">x =</span> carrier))</span>
-<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>f2 <span class="ot">=</span> <span class="fu">filter</span>(flights, <span class="fu">grepl</span>(<span class="at">pattern =</span> <span class="st">"UA"</span>, <span class="at">x =</span> carrier) <span class="sc">|</span></span>
-<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>             <span class="fu">grepl</span>(<span class="at">pattern =</span> <span class="st">"AA"</span>, <span class="at">x =</span> carrier) <span class="sc">|</span></span>
-<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>             <span class="fu">grepl</span>(<span class="at">pattern =</span> <span class="st">"DL"</span>, <span class="at">x =</span> carrier)</span>
-<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>           )</span>
-<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>f3 <span class="ot">=</span> <span class="fu">filter</span>(flights, <span class="fu">str_detect</span>(carrier, <span class="st">"UA|AA|DL"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Create plots that visualise the sample flights, using code from Chapter 3 of the same book, starting with the following plot:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(f) <span class="sc">+</span></span>
-<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(air_time, distance))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<ul>
-<li>Add transparency so it looks like this (hint: use <code>alpha =</code> in the <code>geom_point()</code> function call):</li>
-</ul>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2117 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<ul>
-<li>Add a colour for each carrier, so it looks something like this:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(f) <span class="sc">+</span></span>
-<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(air_time, distance, <span class="at">colour =</span> carrier), <span class="at">alpha =</span> <span class="fl">0.5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2117 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<ul>
-<li><p>Bonus 1: find the average air time of those flights with a distance of 1000 to 2000 miles</p></li>
-<li><p>Bonus 2: use the <code>lm()</code> function to find the relationship between flight distance and time, and plot the results (start the plot as follows, why did we use <code>na.omit()</code>? hint - find help with <code>?na.omit()</code>):</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>f <span class="ot">=</span> <span class="fu">na.omit</span>(f)</span>
-<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>m <span class="ot">=</span> <span class="fu">lm</span>(air_time <span class="sc">~</span> distance, <span class="at">data =</span> f)</span>
-<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>f<span class="sc">$</span>pred <span class="ot">=</span> m<span class="sc">$</span>fitted.values</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<!-- -   Work through chapters 6 and 7 on spatial and temporal data in the [RRSRR tutorial](https://itsleeds.github.io/rrsrr/) to get R foundations
+
+-   Work-through the remaining exercises of the first sections in R4DS chapters 3 and 5
+
+    -   Write your notes in a .R, .Rmd or .qmd file with comments, to show your working (and prove you've done it!)
+
+-   **Bonus 1 (optional)** Run the code in the [demos/demo-quarto-document.qmd](https://github.com/ITSLeeds/TDS/blob/master/demos/demo-quarto-document.qmd) script
+
+Note: you can copy-paste the code from the .qmd file into a new .qmd file on your computer and render it (convert it into a .PDF file) using the following: -->
 
 
 </section>
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p> Note: if you want to install the development version of a package from GitHub, you can do so. Try, for example, running the following command: <code>remotes::install_github("ITSLeeds/pct")</code><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
