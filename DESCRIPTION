@@ -20,6 +20,9 @@ Imports:
     spDataLarge,
     DT,
     calendar,
-    reticulate
+    reticulate,
+    stplanr,
+    tmap,
+    spData
 Remotes:
     nowosad/spDataLarge
