@@ -185,7 +185,7 @@ ve = get_stats19(year = 2019, type = "veh")
 ## Python
 
 ``` python
-# Todo: start with installing stats19 Python package
+# pip install stats19
 import stats19
 ac = stats19.get_stats19(year = 2019, type = "collision")
 ca = stats19.get_stats19(year = 2019, type = "cas")
