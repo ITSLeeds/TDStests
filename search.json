@@ -4,7 +4,7 @@
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Practical 1\n\nSlides\n\nPractical 2\nPractical 3\nPractical 4\nPractical 5\nPractical 6\nDatasets\nSlides (those not included in the practicals)\n\n#| eval: false\n#| echo: false\ncd docs/slides\ndocker run --rm -t -v .:/slides astefanutti/decktape -s 1280x720 generic https://itsleeds.github.io/TDStests/slides/intro.html intro.pdf\nfirefox intro.pdf",
+    "text": "Practical 1\n\nSlides\n\nPractical 2\nPractical 3\nPractical 4\nPractical 5\nPractical 6\nDatasets\nSlides (those not included in the practicals)",
     "crumbs": [
       "Materials"
     ]
