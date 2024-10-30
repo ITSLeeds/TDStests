@@ -6,6 +6,9 @@ title: "Origin-destination data"
 toc: true
 execute: 
   cache: true
+  eval: false
+  warning: false
+  message: false
 bibliography: ../tds.bib
 jupyter: python3
 ---
@@ -29,15 +32,25 @@ Install the packages by typing in the following commands into RStudio (you do no
 
 If you need to install any of these packages use:
 
-```{r echo = T, results = 'hide', eval = FALSE}
-install.packages("sf")  # Install a package from CRAN
-remotes::install_github("Nowosad/spDataLarge")   # install from GitHub using the remotes package
+::: {.panel-tabset group="language"}
+
+## R
+
+```{r}
+#| eval: false
+if (!require("pak")) install.packages("pak")
+pak::pkg_install(c("sf", "tidyverse", "remotes"))
+# GitHub pkgs
+pak::pkg_install("Nowosad/spDataLarge")
 ```
 
-```{r echo = T, results = 'hide', warning=FALSE, message=FALSE}
+```{r}
 library(sf)          # vector data package 
 library(tidyverse)   # tidyverse packages
+library(spData)  # spatial data package 
 ```
+
+## Python
 
 ```{python, eval=FALSE}
 # Install necessary packages (uncomment if not already installed)
@@ -47,29 +60,27 @@ import geopandas as gpd       # vector data package
 import pandas as pd           # data manipulation
 import matplotlib.pyplot as plt  # plotting
 import seaborn as sns            # advanced plotting
-```
-
-- It relies on **spData**, which loads datasets used in the code examples of this chapter:
-
-```{r 03-attribute-operations-2, echo = T, results = 'hide',warning=FALSE, message=FALSE}
-library(spData)  # spatial data package 
-```
-
-```{python, eval=FALSE}
 # For spatial data, geopandas comes with sample datasets
 # Alternatively, we can use the naturalearth datasets
 import geopandas.datasets
 ```
 
-1. Check your packages are up-to-date with `update.packages()`
-1. Create an RStudio project with an appropriate name for this session (e.g. `practical2`)
+:::
+
+1. Check your packages are up-to-date with `update.packages()` in R (or equivalent in Python)
+1. Create a project folder with an appropriate name for this session (e.g. `practical2`)
 1. Create appropriate folders for code, data and anything else (e.g. images)
 1. Create a script called `learning-OD.R`, e.g. with the following command:
 
-```{r, eval = F, echo = T, results = 'hide'}
-dir.create("code") # 
-file.edit("code/learning-OD.R")
+```sh
+mkdir code
+code code/learning-OD.R # for R
+code code/learning-OD.py # for Python
 ```
+
+<!-- dir.create("code") # 
+file.edit("code/learning-OD.R") -->
+
 ## Basic sf operations
 
 We will start with a simple map of the world. Load the `world` object from the `spData` package.  Notice the use of `::` to say that you want the `world` object from the `spData` package.

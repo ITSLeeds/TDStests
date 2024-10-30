@@ -6,8 +6,12 @@ execute:
 
 ```{r}
 #| include: false
-# Aim: create ical of all lectures and practicals of TDS
 library(tidyverse)
+```
+
+```{r}
+#| eval: false
+# Aim: create ical of all lectures and practicals of TDS
 # Start date of week 1 (source: https://ses.leeds.ac.uk/info/21630/timetabling/1384/teaching-week-patterns-202425)
 w_start = as.Date("2024-09-30")
 w_start
@@ -141,6 +145,7 @@ system("gh release upload 2025 timetable.ics timetable.csv")
 ```
 
 ```{r}
+tt_csv = readr::read_csv("timetable.csv")
 timetable = tt_csv |> 
   mutate(
     session_code = paste0(
