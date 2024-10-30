@@ -2,7 +2,7 @@
 format: gfm
 ---
 
-This repo contain code for the Transport Data Science module at the Institute for Transport Studies, University of Leeds.
+This repo contains code for the Transport Data Science module at the Institute for Transport Studies, University of Leeds.
 
 To set it up we used commands such as:
 
